@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Color Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assist/favicon.ico">
+    <script src="jquery-3.4.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- For Starting Block -->
+    <div class="start-block">
+        <div class="block">
+            <div class="text">
+                Try to guess the <strong>COLOR</strong>
+                as fast as possible
+            </div>
+            <input type="text" id="name" placeholder="Enter Name">
+            <button id="start-btn" type="submit">START</button>
+        </div>
+    </div>
+
+    <!-- For Main Game Block -->
+    <div class="main-block">
+        <div class="border"></div>
+
+        <header>
+            <div class="container">
+                <div class="content">
+                    <img src="assist/logo.png" alt="logo" class="logo">
+                    <h1><strong>COLOR</strong></h1>
+                </div>
+                <div>
+                    
+                </div>    
+                <div class="timeout">Timeout!</div>
+            </div>
+        </header>
+
+        <section class="list">
+            <ul class="content">
+                <l1 class="item">
+                    <div>
+                        <div><strong>TIME</strong></div>
+                        <strong>
+                            <div id="time">----</div>
+                        </strong>
+                    </div>
+                </l1>
+                <l1 class="item">
+                    <div>
+                        <div><strong>ROUND</strong></div>
+                        <strong>
+                            <span id="round">0</span>
+                            /
+                            <span>15</span>
+                        </strong>
+                    </div>
+                </l1>
+                <l1 class="item">
+                    <div>
+                        <div><strong>SCORE</strong></div>
+                        <strong>
+                            <span id="score">0</span>
+                        </strong>
+                    </div>
+                </l1>
+            </ul>
+        </section>
+
+        <section id="color-choice">
+            <div class="choice"></div>
+            <span class="span">Which <strong> COLOR </strong> is this?</span>
+        </section>
+
+        <section class="colors">
+            <ul id="mycolors" class="c1">
+                <li id="items"></li>
+            </ul>
+            <ul id="mycolors" class="c2">
+                <li id="items"></li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- For End Block -->
+    <div class="end-block">
+        <div class="block">
+            <div class="text">
+                Congratulation! <br>Your <strong>SCORE</strong>
+                 : <span class="scored">---</span>
+            </div>
+            <button id="end-btn" type="submit">NEW PLAYER</button>
+            <button id="exit-end" type="submit">EXIT</button>
+        </div> 
+    </div>
+
+    <!-- For Leader Board -->
+    <div class="leader-board">
+        <div class="block">
+            <div class="heading">LEADERBOARD</div>
+            <div class="board-title">
+                <div class="names">NAME</div>
+                <div class="scores">SCORE</div>
+            </div>
+            <div id="container">
+            </div>
+            <div class="bt">
+                <button id="exit-leader" type="submit">PLAY AGAIN</button>
+            </div>
+        </div> 
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="leaderBoard.js"></script>
+    <script src="stopWatch.js"></script>
+    <script src="tinyColor.js"></script>
+</body>
+</html>
