@@ -1,4 +1,4 @@
-# web-color-game
+# Color-game
 
  # FRONT-END Based Project :
  
