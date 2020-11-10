@@ -1,6 +1,6 @@
 # Color-game
 
-<p><a href="https://sumitrohilla.github.io/colors-game/"><img src="https://img.shields.io/badge/-Game-Link-3423A6?style=flat-square&logo=Google-Chrome&logoColor=white"/></a></p>
+<a href="https://sumitrohilla.github.io/colors-game/"><img src="https://img.shields.io/badge/-Game%Link-4285F4?style=for-the-badge&logo=Google-Chrome&logoColor=white"/></a>
 
 ## FRONT-END Based Project :
  
