@@ -1,5 +1,7 @@
 # Color-game
 
+<a href="https://sumitrohilla.github.io/colors-game/"><img src="https://img.shields.io/badge/-Game-Link-333333?style=flat&logo=Google-Chrome"></a>
+
 ## FRONT-END Based Project :
  
 This project is create using basic FRONT-END languages.\
