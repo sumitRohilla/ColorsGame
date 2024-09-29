@@ -66,6 +66,7 @@ body {
 
 #name {
   width: 73%;
+  margin-bottom: 10px;
   padding: 10px 10px;
   border-radius: 5px;
   border: none;
@@ -291,6 +292,13 @@ body {
 }
 
 /* Mobile view media query */
+
+@media screen and (max-width: 750px) {
+  .container {
+    height: 80px;
+    max-width: 95%;
+  }
+}
 
 @media screen and (max-width: 500px) {
   body {
